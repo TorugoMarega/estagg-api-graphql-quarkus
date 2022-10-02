@@ -3,7 +3,9 @@ package br.com.estagg.model;
 public enum Role {
 
     ADMIN("Administrador"),
-    STUDENT("Aprendiz");
+    COORDINATOR("Coordenador"),
+    STUDENT("Aprendiz"),
+    RECRUITER("Recrutador");
 
 
     private String value;
